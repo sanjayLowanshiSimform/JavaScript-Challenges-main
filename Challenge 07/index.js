@@ -5,12 +5,6 @@
 const a = true;
 const b = true;
 
-if (a) {
-  if (b) {
-    console.log('b is true');
-  } else {
-    console.log('b is false');
-  }
-} else {
-  console.log('a is false');
-}
+a ? 
+( b ? console.log('b is true') : console.log('b is false')) 
+: console.log('a is false');
